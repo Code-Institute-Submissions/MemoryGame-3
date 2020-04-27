@@ -104,7 +104,7 @@ function cardClick(cardId){
             //flip back because they are not the same.
             cardChk = 1;
             //call flipback function on a delay of 600 milliseconds
-            setTimeout(function(){flipBack();}, 1000);
+            setTimeout(function(){flipBack();}, 500);
             return;
         }
     }
