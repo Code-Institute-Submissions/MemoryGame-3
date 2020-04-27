@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+html {
+    background-color: #B5DEF5;
+}
+
+#head {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    margin-top: 0px;
+    color: #de6114;
+    font-size: 30px;
+}
+
+#updates {
+    float: right;
+    font-size: 40px;
+    font-family: 'Permanent Marker', cursive;
+    color: #de6114;
+    margin: 150px, 100px;
+    text-align: center;
+}
+
+#timer{
+    margin: 20px;
+    margin-left: 15px;
+}
+
+#score{
+    margin: 20px;
+    margin-left: 15px;
+}
+
+#new{
+    background-color: black;
+    margin: 15px;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+    color: #de6114;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#new:hover {
+    cursor: pointer;
+    background-color: white;
+}
+
+img {
+    height: 120px;
+    width: 140px;
+    margin: 0;
+}
+
+#game {
+    float: left;
+    width: 780px;
+    height: auto;
+    margin-left: 50px;
+    margin-top: 20px;
+    border: 5px solid #de6114;
+    background-color: #de6114; 
+}
+
+.cards {
+    width: 150px;
+    height: 130px;
+    border: 2px solid black;
+    display: inline-block;
+    float: left;
+    margin: 2px;
+}
+
+.cards:hover{
+    background-color: #B5DEF5;
+    cursor: pointer;
+}
+
+.front {
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    font-size: 100px;
+    font-family: 'Permanent Marker', cursive;
+    margin-left: 23px;
+    transform: rotateY(0deg);
+    transition: transform 0.5s linear 0s;
+    backface-visibility: hidden;
+}
+
+
+.back {
+    position: absolute;
+    width: 150px;
+    height: 130px;
+    padding: 5px;
+    transform: rotateY(180deg);
+    transition: transform 0.5s linear 0s;
+    backface-visibility: hidden;
+}
+
+
+/* #head, #updates, #game {
+    display: none;
+} */
+
+#opacityD, #result {
+    display: none;
+}
+
+#opacityD{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.75;
+    z-index: 10;
+    
+}
+
+#result{
+    z-index: 10;
+    position: fixed;
+    width: 500px;
+    height: auto;
+    border: 8px solid black;
+    border-radius: 7px;
+}
+
+#popBody{
+    background-color: white;
+    height: 250px;    
+}
+
+#imgDiv {
+    position: relative;
+    margin: auto; 
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+}
+
+#imgDiv img{
+    height: 150px;
+    width: 150px;
+}
+
+#h1Res{
+    font-family: 'Permanent Marker', cursive;
+    color: #de6114;
+    text-align: center;
+}
+
+#pRes{
+    font-family: 'Permanent Marker', cursive;
+    color: #de6114;
+    text-align: center;
+}
+
+#popOkay{
+    height: 80px;
+    background-color: #de6114;
+}
+
+#popButton {
+    height: 50px;
+    width: 100px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#popButton button {
+    height: 50px;
+    width: 100px;
+    font-family: 'Permanent Marker', cursive;
+    color: #de6114;
+    background-color: #B5DEF5;
+    outline: none;
+    border-radius: 15px;
+}
+
+
