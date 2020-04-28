@@ -1,0 +1,36 @@
+.background{
+    background-color: #B5DEF5;
+}
+
+.header {
+    font-size: 85px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin: 25px;
+    color: #de6114;
+}
+
+.header-1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    margin: auto;
+    color: #de6114;
+}
+
+.instructions {
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    word-spacing: 1px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.button {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+
